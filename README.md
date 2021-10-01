@@ -31,17 +31,7 @@
 
 ## Project Description
 
-This is a project particularly aimed at guideing the beginners who want to learn and explore various forms of coding like Web Developement , App Developement , Machine Learning , Blockchain , Competitve Coding etc . This is a open source project and contributions are welcome from anyone who wants to contribute . Go through the [CONTRIBUTING.md](https://github.com/ACM-Thapar/CS_COURSE_GUIDE/blob/master/CONTRIBUTING.md) file if you want to contribute . The project structure is as follows :- 
-- The project root has various folders named after different technical braches we want to cover .
-- The Each folder and a separate README.md file and various sub folders depending upon further bifurcations that the particular branch requires .
-- The readme files contain in a pretty elaborate way , evry thing that a beginner needs to know each readme file contains a minimum of these headings .
-    - About the Technology refer to 
-    - A roadmap about how to learn it 
-    - Courses from udemy , youtube and other platforms 
-    - Good Youtube channels that should be subscribed to .
-    - Good Blog Websites regarding that  Technology.
-    - Other important websites one needs to know .
-    - Further reading
+This a project for Flutter developers aimed to improve their understand and usage of Firebase with Flutter and get started with State Management Using Provider.
     
 
 ## Contribution to the project
