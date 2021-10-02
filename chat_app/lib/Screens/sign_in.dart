@@ -2,6 +2,7 @@
 
 import 'package:chat_app/Screens/sign_up.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import 'homepage.dart';
 
@@ -16,12 +17,11 @@ class SignInScreen extends StatelessWidget {
         title: TextButton(
           child: Text(
               "CHAT-APP",
-            style: TextStyle(
+            style: GoogleFonts.lobster(
               fontSize: 35,
-              fontFamily: 'ZenTokyoZoo',
-                letterSpacing: 5,
+              letterSpacing: 3,
               color: Colors.white,
-            ),
+            )
           ),
           onPressed: (){
             Navigator.push(
@@ -43,12 +43,11 @@ class SignInScreen extends StatelessWidget {
               Center(
                 child: Text(
                   'LOGIN',
-                  style: TextStyle(
+                  style: GoogleFonts.goblinOne(
                       color: Colors.black,
                       letterSpacing: 3,
                       fontSize: 30,
                       fontWeight: FontWeight.bold,
-                      fontFamily: "GoblinOne",
                   ),
                 ),
               ),

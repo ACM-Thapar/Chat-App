@@ -34,6 +34,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  google_fonts: ^2.1.0
 
 dev_dependencies:
   flutter_test:
@@ -73,18 +74,7 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  fonts:
-      - family: IndieFlower
-        fonts:
-          - asset: fonts/IndieFlower-Regular.ttf
 
-      - family: ZenTokyoZoo
-        fonts:
-          - asset: fonts/ZenTokyoZoo-Regular.ttf
-
-      - family: GoblinOne
-        fonts:
-          - asset: fonts/GoblinOne-Regular.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

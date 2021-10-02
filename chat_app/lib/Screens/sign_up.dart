@@ -3,6 +3,7 @@
 import 'package:chat_app/Screens/homepage.dart';
 import 'package:chat_app/Screens/sign_in.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 // ignore: use_key_in_widget_constructors
 class SignUpScreen extends StatelessWidget {
@@ -15,10 +16,9 @@ class SignUpScreen extends StatelessWidget {
         title: TextButton(
           child: Text(
             "CHAT-APP",
-            style: TextStyle(
+            style: GoogleFonts.lobster(
                 fontSize: 35,
-                fontFamily: 'ZenTokyoZoo',
-                letterSpacing: 5,
+                letterSpacing: 3,
                 color: Colors.white
             ),
           ),
@@ -42,12 +42,11 @@ class SignUpScreen extends StatelessWidget {
               Center(
                 child: Text(
                   'REGISTER',
-                  style: TextStyle(
+                  style: GoogleFonts.goblinOne(
                     color: Colors.black,
                     letterSpacing: 3,
                     fontSize: 30,
                     fontWeight: FontWeight.bold,
-                    fontFamily: "GoblinOne",
                   ),
                 ),
               ),
