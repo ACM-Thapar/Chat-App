@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 // ignore: use_key_in_widget_constructors
 class MainPage extends StatelessWidget {
@@ -9,9 +10,57 @@ class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text('This is the page when user is logged in'),
+      appBar: AppBar(
+        backgroundColor: Colors.blue,
+        title: Center(
+          child: Text(
+            "MAIN",
+             style: GoogleFonts.poppins(
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+              color: Colors.black,
+            ),
+          ),
+        ),
+        leading: GestureDetector(
+          onTap: (){
+            print("yess");
+          },
+          child: Icon(
+            Icons.arrow_back,
+          ),
+        ),
+        actions: [
+          Padding(
+            padding: const EdgeInsets.all(10.0),
+            child: GestureDetector(
+              onTap: (){
+                print('yes');
+              },
+              child: Icon(
+                Icons.more_vert,
+              ),
+            ),
+          )
+          
+        ],
       ),
+      body: Padding(
+        padding: const EdgeInsets.all(20.0),
+        child: Column(
+          children: [
+          Container(
+           
+            height: 60,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
+               color: Colors.grey.shade300,
+            ),
+            
+          )
+        ],
+        ),
+      )
     );
   }
 }
