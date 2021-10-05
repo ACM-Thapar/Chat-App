@@ -95,7 +95,7 @@ class ChatRow extends StatelessWidget {
      child: Row(
           children: [
         Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: const EdgeInsets.all(10.0),
           child: CircleAvatar(
             backgroundColor: Colors.blueGrey,
           ),
@@ -104,10 +104,7 @@ class ChatRow extends StatelessWidget {
           SizedBox(
             child: Text(nickname),
           ),
-          Padding(
-            padding: const EdgeInsets.only(left: 20),
-            child: Text(aboutMe),
-          ),
+          Text(aboutMe),
         ],)
         
       ],
