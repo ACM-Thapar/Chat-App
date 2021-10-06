@@ -1,5 +1,7 @@
 import 'package:chat_app/Screens/sign_in.dart';
 import 'package:chat_app/Screens/sign_up.dart';
+
+import 'Screens/mainpage.dart';
 import 'package:flutter/material.dart';
 
 import 'Screens/homepage.dart';
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      home:  MainPage(),
     );
   }
 }
