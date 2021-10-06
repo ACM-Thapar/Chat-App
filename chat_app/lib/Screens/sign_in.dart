@@ -16,10 +16,10 @@ class SignInScreen extends StatelessWidget {
       appBar: AppBar(
         title: TextButton(
           child: Text(
-              "CHAT-APP",
-            style: GoogleFonts.lobster(
+              "Chat-App",
+            style: GoogleFonts.poppins(
               fontSize: 35,
-              letterSpacing: 3,
+              fontWeight: FontWeight.bold,
               color: Colors.white,
             )
           ),
@@ -31,7 +31,7 @@ class SignInScreen extends StatelessWidget {
           },
         ),
         centerTitle: true,
-        backgroundColor: Colors.indigo.shade600,
+        backgroundColor: Colors.blue,
       ),
       body: SingleChildScrollView(
         child: Padding(
@@ -43,9 +43,9 @@ class SignInScreen extends StatelessWidget {
               Center(
                 child: Text(
                   'LOGIN',
-                  style: GoogleFonts.goblinOne(
+                  style: GoogleFonts.roboto(
                       color: Colors.black,
-                      letterSpacing: 3,
+                      letterSpacing: 1,
                       fontSize: 30,
                       fontWeight: FontWeight.bold,
                   ),
@@ -62,7 +62,7 @@ class SignInScreen extends StatelessWidget {
                       borderRadius: BorderRadius.circular(15),
                       border: Border.all(
                           width: 3,
-                          color: Colors.indigo.shade600,
+                          color: Colors.blue,
                           style: BorderStyle.solid
                       )
                   ),
@@ -86,7 +86,7 @@ class SignInScreen extends StatelessWidget {
                       borderRadius: BorderRadius.circular(15),
                       border: Border.all(
                           width: 3,
-                          color: Colors.indigo.shade600,
+                          color: Colors.blue,
                           style: BorderStyle.solid
                       )
                   ),
@@ -107,7 +107,7 @@ class SignInScreen extends StatelessWidget {
                   minWidth: 400,
                   height: 50,
                   child: RaisedButton(
-                    color: Colors.indigo.shade500,
+                    color: Colors.green,
                     elevation: 8,
 
                     shape: RoundedRectangleBorder(

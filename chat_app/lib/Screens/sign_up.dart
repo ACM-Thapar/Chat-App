@@ -15,11 +15,11 @@ class SignUpScreen extends StatelessWidget {
       appBar: AppBar(
         title: TextButton(
           child: Text(
-            "CHAT-APP",
-            style: GoogleFonts.lobster(
+            "Chat-App",
+            style: GoogleFonts.poppins(
                 fontSize: 35,
-                letterSpacing: 3,
-                color: Colors.white
+                color: Colors.white,
+              fontWeight: FontWeight.bold,
             ),
           ),
           onPressed: (){
@@ -30,7 +30,7 @@ class SignUpScreen extends StatelessWidget {
           },
         ),
         centerTitle: true,
-        backgroundColor: Colors.indigo.shade600,
+        backgroundColor: Colors.blue,
       ),
       body: SingleChildScrollView(
         child: Padding(
@@ -42,9 +42,9 @@ class SignUpScreen extends StatelessWidget {
               Center(
                 child: Text(
                   'REGISTER',
-                  style: GoogleFonts.goblinOne(
+                  style: GoogleFonts.roboto(
                     color: Colors.black,
-                    letterSpacing: 3,
+                    letterSpacing: 1,
                     fontSize: 30,
                     fontWeight: FontWeight.bold,
                   ),
@@ -61,15 +61,15 @@ class SignUpScreen extends StatelessWidget {
                       borderRadius: BorderRadius.circular(15),
                       border: Border.all(
                           width: 3,
-                          color: Colors.indigo.shade600,
+                          color: Colors.blue,
                           style: BorderStyle.solid
                       )
                   ),
-                  child: TextField(
+                  child: TextFormField(
                     decoration: InputDecoration(
                         hintText: 'Name',
                         contentPadding: EdgeInsets.all(20),
-                        border: InputBorder.none
+                        border: InputBorder.none,
                     ),
                   ),
                 ),
@@ -85,7 +85,7 @@ class SignUpScreen extends StatelessWidget {
                       borderRadius: BorderRadius.circular(15),
                       border: Border.all(
                           width: 3,
-                          color: Colors.indigo.shade600,
+                          color: Colors.blue,
                           style: BorderStyle.solid
                       )
                   ),
@@ -109,7 +109,7 @@ class SignUpScreen extends StatelessWidget {
                       borderRadius: BorderRadius.circular(15),
                       border: Border.all(
                           width: 3,
-                          color: Colors.indigo.shade600,
+                          color: Colors.blue,
                           style: BorderStyle.solid
                       )
                   ),
@@ -130,7 +130,7 @@ class SignUpScreen extends StatelessWidget {
                   minWidth: 400,
                   height: 50,
                   child: RaisedButton(
-                    color: Colors.indigo.shade500,
+                    color: Colors.green,
                     elevation: 8,
 
                     shape: RoundedRectangleBorder(
@@ -155,7 +155,7 @@ class SignUpScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                        "Alraedy have an account?",
+                        "Already have an account?",
                         style: TextStyle(
                             color: Colors.black,
                             fontSize: 15,
