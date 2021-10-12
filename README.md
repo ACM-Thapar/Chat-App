@@ -34,7 +34,7 @@
 This a project for Flutter developers aimed to improve their understand and usage of Firebase with Flutter and get started with State Management Using Provider.
     
 
-## Contribution to the project
+## Contribution to The Project
 
 The contributing instructions are written in the [CONTRIBUTING.md file](https://github.com/ACM-Thapar/CS_COURSE_GUIDE/blob/master/CONTRIBUTING.md) . Thoroughly follow the instructions if you want your pull request to be merged without and conflicts
 
