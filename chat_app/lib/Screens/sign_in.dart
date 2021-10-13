@@ -3,7 +3,6 @@
 import 'package:chat_app/Screens/sign_up.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-
 import 'homepage.dart';
 
 // ignore: use_key_in_widget_constructors

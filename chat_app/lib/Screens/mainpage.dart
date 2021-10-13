@@ -49,23 +49,23 @@ class MainPage extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.all(20.0),
         child: Column(
-          children: [
+          children: const [
           Padding(
-            padding: const EdgeInsets.all(8.0),
+            padding: EdgeInsets.all(8.0),
             child: ChatRow(
               nickname: 'Nickname:ChiPu',
               aboutMe: 'AboutMe:Shopping',
             ),
           ),
            Padding(
-             padding: const EdgeInsets.all(8.0),
+             padding: EdgeInsets.all(8.0),
              child: ChatRow(
               nickname: 'Nickname:SongTungMTP',
               aboutMe: 'AboutMe:Like Travel',
           ),
            ),
            Padding(
-             padding: const EdgeInsets.all(8.0),
+             padding: EdgeInsets.all(8.0),
              child: ChatRow(
               nickname: 'Nickname:DangTroung',
               aboutMe: 'AboutMe:Sing my Song',
